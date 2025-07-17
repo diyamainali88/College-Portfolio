@@ -1,9 +1,10 @@
 {
-  "name": "sid-portfolio",
+  "name": "diya-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -16,6 +17,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
+    "react-scripts": "^5.0.1",
     "react-simple-typewriter": "^5.0.1",
     "tailwindcss": "^4.0.13"
   },

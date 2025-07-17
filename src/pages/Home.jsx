@@ -1,5 +1,5 @@
 import React from "react";
-import Sid from "/siddhartha.png";
+import Sid from "/diya_profile.jpg";
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
 
@@ -29,7 +29,7 @@ function Home() {
             className="pb-4 text-3xl text-white font-thin tracking-light sm:text-4xl md:text-5xl lg:text-5xl"
           >
             <Typewriter
-                words={["Hi, I'm Siddhartha Sapkota 👋"]}
+                words={["Hi, I'm Diya Mainali 👋"]}
                 loop={1} // 0 means infinite loop
                 cursor
                 cursorStyle="|"
@@ -46,7 +46,7 @@ function Home() {
             animate="visible"
             className="bg-gradient-to-r from-blue-300 via-cyan-200 to-green-500 bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl tracking-light"
           >
-            Quality Assurance | Cybersecurity Aspirant
+            Cybersecurity Student | Aspiring Cybersecurity Analyst | Dedicated Learner
           </motion.span>
 
           <motion.p
@@ -55,7 +55,7 @@ function Home() {
             animate="visible"
             className="my-4 max-w-xl mx-auto lg:mx-0 font-light tracking-tight text-gray-400 text-sm sm:text-base md:text-lg"
           >
-            I am Siddhartha Sapkota, a Quality Assurance Tester and Cybersecurity enthusiast. I like to learn more about Cybersecurity. I am always eager to learn new technologies and improve my skills.
+            I am Diya Mainali, Cybersecurity Student and Aspiring Cybersecurity Analyst. I like to learn more about Cybersecurity. I am always eager to learn new technologies and improve my skills.
           </motion.p>
         </div>
 
@@ -66,7 +66,7 @@ function Home() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 1.2 }}
             src={Sid}
-            alt="Siddhartha Sapkota"
+            alt="Diya Mainali"
             className="rounded-lg size-2/3 sm:size-3/5 shadow-lg"
           />
         </div>
