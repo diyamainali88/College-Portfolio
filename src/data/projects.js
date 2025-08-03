@@ -1,5 +1,5 @@
 import database from "../assets/database.png";
-import ceh from "/iqos.png";
+import ceh from "/john.png";
 // import teamnepal from "/teamnepal.png";
 // import hrms from "/hrms.png";
 const projects = [
@@ -18,8 +18,8 @@ const projects = [
       description:
         "Engaged in the hands-on simulation of a Capture The Flag (CTF) competition, solving real-world cybersecurity problems involving system exploitation, vulnerability scanning, and digital forensics. \n Conducted OSINT investigations, cryptographic analysis, and steganography challenges to extract hidden data and uncover system vulnerabilities using professional-grade security tools.  \nPerformed system exploitation using Nmap, Metasploit, and Meterpreter, including password hash extraction, privilege escalation, and process migration to successfully capture flags across multiple challenge scenarios.",
       image: ceh,
-      techStack: ["UI/UX Testing", "Function-testing", "Unit-testing", "Integration-testing"],
-      link: "https://demo.bidheepos.com/",
+      techStack: ["Metasploit", "OSINT", "Wireshark", "Nmap"],
+      // link: "https://demo.bidheepos.com/",
     },
     // {
     //   id: 3,

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { IoMenu, IoClose } from "react-icons/io5";
-import logo from "/logo.png";
+import logo from "/diyalogo.png";
 
 function Navbar() {
   const [selected, setSelected] = useState("home");
@@ -45,7 +45,7 @@ function Navbar() {
         <div className="container mx-auto flex justify-around items-center">
           {/* Logo */}
           <div className="logo">
-            <img src={logo} alt="logo-sid" className="w-12 lg:w-20" />
+            <img src={logo} alt="logo-sid" className="w-12 lg:w-48" />
           </div>
 
           {/* Desktop Navigation */}
