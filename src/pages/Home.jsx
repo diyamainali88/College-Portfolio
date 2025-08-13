@@ -1,5 +1,5 @@
 import React from "react";
-import Sid from "/diya_profile.jpg";
+import Diya from "/diya_profile.jpg";
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
 
@@ -65,7 +65,7 @@ function Home() {
             initial={{ opacity: 0, x: 100 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 1.2 }}
-            src={Sid}
+            src={Diya}
             alt="Diya Mainali"
             className="rounded-lg size-2/3 sm:size-3/5 shadow-lg"
           />
